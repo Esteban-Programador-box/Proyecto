@@ -1,0 +1,52 @@
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+    position:fixed;
+  top:0;
+   width:100%;
+    
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+    padding:2px;
+    
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: white;
+   background-color: black;
+   border: 1px solid white;
+   text-decoration: none;
+    margin:5px;
+}
+
+.fondo-negro{
+   background-color: black;
+   padding: 2px;
+    
+}
+.nike{
+width:10%;
+}
+.scroll{
+width:400px;
+height:400px;    
+overflow-x: scroll;
+display:flex;
+    margin:auto;
+}
+
+      
+.imagen{
+ width:396px;
+    height:400px; }
+
+.letra{
+margin:15px 0px 0px 15px;
+}
+
+body{
+ text-align:center;
+}

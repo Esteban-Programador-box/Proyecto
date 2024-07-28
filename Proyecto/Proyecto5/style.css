@@ -1,0 +1,45 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 200px;
+
+    /* add an outline around each picture */
+    border: 3px double black;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+
+body {
+    text-align: center;
+    background: url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3BsYXlcLzQ2YTVmMzY0LTg2N2EtNDJhNC1iN2U0LWRlNzk5NDU0ODZhYS0xOTIwLTEwODAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiMTIwMCJ9fX0=);
+    color: rgb(16, 205, 238);
+    background-size: 500px;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+   
+
+}
+img:hover{
+ transform: scale(1.1);
+box-shadow: opx 10px 20px rgba(0,0,0,0.5);
+border:3px outset rgb(1, 1, 17);
+border-width: 5px;
+}

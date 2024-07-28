@@ -1,0 +1,72 @@
+Body{
+background-color:black;
+}
+.Boxeo{
+width:400px;
+    Border-style:groove;
+    Border-radius:30%;
+    Border-color:white;
+     margin: auto;
+    display:block;
+}
+.Centroamericano{
+ width:500px;   
+    Border-style:groove;
+    Border-radius:40%;
+    Border-color:white;
+     margin: auto;
+    display:block;
+}
+.Rocky{
+ Border-radius:40%; 
+    border:2px solid white;
+    margin: auto;
+    display:block;
+    paddin:50px;
+}
+.h1{
+ color:white;
+      font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.h2{
+ color:white;
+     font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.p{
+ color:white;
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.h3{
+color:white;
+     font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ol{
+ color:white;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.link{
+    margin: auto;
+    display:block;
+    border-radius:40%;
+    padding:20px;
+   
+}
+
+
+.hh{
+ text-align:center;
+}
+
+
+
+
